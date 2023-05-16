@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator mi</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <!-- <script src="calc3.js" defer></script> -->
+</head>
+<body>
+    <main class="container">
+       <form>
+        <div class="box1">
+            <h3><em><span class="span1">Toc</span><span class="span2">hio</span> <span class="span3">cal</span><span class="span4">cul</span><span class="span5">ator</span></em></h3>
+            <input type="text" placeholder="0" class="inphut" name="display">
+        </div>
+
+        <div class="box2">
+            <div class="minibox1">
+                <input type="button" class="green" value="AC" onclick="display.value = ''">
+                <input type="button" class="green" value="DEL" onclick="display.value = display.value.toString().slice(0, -1)" >
+                <input type="button" class="grey" value="/" onclick="display.value += '/'">
+                <input type="button" class="grey" value="*" onclick="display.value += '*'">
+            </div>
+
+            <div class="minibox2">
+                <input type="button" value="7" onclick="display.value += '7'">
+                <input type="button" value="8" onclick="display.value += '8'">
+                <input type="button" value="9" onclick="display.value += '9'">
+                <input type="button" value="-" onclick="display.value += '-'">
+            </div>
+            <div class="minibox3">
+                <input type="button" value="4" onclick="display.value += '4'">
+                <input type="button" value="5" onclick="display.value += '5'">
+                <input type="button" value="6" onclick="display.value += '6'">
+                <input type="button" class="grey" value="+" onclick="display.value += '+'">
+            </div>
+            <div class="minibox4">
+                <input type="button" value="1" onclick="display.value += '1'">
+                <input type="button" value="2" onclick="display.value += '2'">
+                <input type="button" value="3" onclick="display.value += '3'">
+                <input type="button" class="equal" value="=" onclick="display.value = eval(display.value)">
+            </div>
+            <div class="minibox5">
+                <input type="button" value="0" onclick="display.value += '0'">
+                <input type="button" value="." onclick="display.value += '.'">
+            </div>
+        </div>
+       </form>
+    </main>
+</body>
+</html>

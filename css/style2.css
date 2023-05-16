@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color: #e0c2ef;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 10rem 1fr;
+    margin: 15rem auto;
+    width: 25rem;
+    height: 40rem;
+    border-radius: 2rem;
+    box-shadow: 0.3rem 0.3rem black;
+}
+
+form{
+    height: inherit;
+    background-color: #011d36;
+    border-radius: inherit;
+    /* background-color: navy; */
+    width: inherit;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.box1{
+    background-color: #011d36;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: inherit;
+}
+
+.box1 h3{
+    text-align: right;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: inherit;
+    border-radius: 2rem;
+}
+
+span, em{
+    background-color: grey;
+    border-radius: inherit;
+}
+
+.span1{
+    color: white;
+}
+.span2{
+    color: black;
+}
+.span3{
+    color: red;
+}
+.span4{
+    color: blue;
+}
+.span5{
+    color: black;
+}
+
+.box1 .inphut{
+    color: black;
+    height: 3.5rem;
+    width: 22rem;
+    margin-left: 1.7rem;
+    /* margin: 4rem auto; */
+    background-color: white;
+    border-radius: 1.5rem;
+    padding-top: 1rem;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.inphut::placeholder{
+    text-align: right;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.box2{
+    background-color: #011d36;
+    margin-top: 2rem;
+    /* border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem; */
+}
+
+.minibox1, .minibox2, .minibox3, .minibox4, .minibox5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    background-color: #011d36;
+}
+
+.minibox5{
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.box2 input{
+    background-color: grey;
+    color: white;
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    /* padding-left: 2.3rem; */
+    /* border: 0.0625rem solid black; */
+    cursor: pointer;
+    border-radius: 1.5rem;
+    outline: none;
+    /* border: none; */
+}
+
+.box2 .green{
+    color: green;
+}
+
+.box2 .grey{
+    color: orangered;
+}
